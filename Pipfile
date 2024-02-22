@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+# Bot loyihangizda foydalanayotgan kutubxonalarni shu yerga ham qo'shing
+[packages]
+aiogram = "~=3.4.1"
+environs = "~=10.3.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

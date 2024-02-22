@@ -1,0 +1,6 @@
+# Botingizda foydalanayotgan tashqi kutubxonalarni shu yerga qo'shing
+# kutubxona_nomi~=joriy_versiyasi - shu tarzda yozgan holda
+# quyidagi misollarni ko'rib tushuna olasiz
+
+aiogram~=3.4.1
+environs~=10.3.0
