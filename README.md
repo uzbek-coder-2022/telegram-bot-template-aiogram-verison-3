@@ -6,7 +6,7 @@
 + Qo'shimchalar qo'shildi va keraksiz qismlar olib tashlandi
 + Eski shablon [anvarnarz](https://github.com/anvarnarz/mukammal-bot-paid) dan olindi
 
-   Shablonni quyidagi git buryug'i orqali yuklab olishingiz mumkin:
+Shablonni quyidagi git buryug'i orqali yuklab olishingiz mumkin:
  
      
     git clone https://github.com/uzbek-coder-2022/telegram-bot-template-aiogram-verison-3.git
