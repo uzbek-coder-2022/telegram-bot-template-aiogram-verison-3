@@ -5,6 +5,7 @@
 + Shablon aiogram `2.x` verisyasidan `3.x` versiyasi uchun o'zgartirildi
 + Qo'shimchalar qo'shildi va keraksiz qismlar olib tashlandi
 + Eski shablon [anvarnarz](https://github.com/anvarnarz/mukammal-bot-paid) dan olindi
++ `3.x` versiyasidan boshlab endilikda `Router` orqali ishlash kerak alohida fayllardagi handlerda
 
 Shablonni quyidagi git buryug'i orqali yuklab olishingiz mumkin:
  
