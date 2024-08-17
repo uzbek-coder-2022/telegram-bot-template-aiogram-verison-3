@@ -21,7 +21,11 @@ Shablonni o'zingizga yuklab olgandan so'ng `aiogram` va `environs` kutubxonalari
 Yoki boshqa usul `requirements.txt` orqali bu ishni bajarishingiz ham mumkin:
 
     pip install -r requirements.txt
-
+    
+Botni linux serverda ishlatishda `deploy.sh` faylidan foydalaning. Buning uchun quyidagi buyruqni terminalda ishga tushiring.
+    
+    cd /home/user/aiogram-bot  # bot joylashgan yerga o'tish
+    ./deploy.sh  # faylni ishga tushirish
 
 Qo'shimcha o'zgartirishlar asta-sekin yana amalga oshirib boriladi.
 
