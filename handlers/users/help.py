@@ -1,14 +1,14 @@
 from aiogram import types
+from aiogram import Router
 from aiogram.filters import Command
-from loader import dp
 
+help_router = Router()
 
 # Help - bu kommanda botda qanday foydalanishlarni ko'rsatadi
-@dp.message(Command('help'))
+@help_router.message(Command(commands=["help"]))
 async def bot_help(message: types.Message):
-    # text - da bu haqida ma'lumot berilmoqda
     text = ("Buyruqlar: ",
-            "/start - Botni ishga tushirish",
-            "/help - Yordam")
-    
+            "1. /start - Botni ishga tushirish",
+            "2. /help - Yordam")
+
     await message.answer("\n".join(text))

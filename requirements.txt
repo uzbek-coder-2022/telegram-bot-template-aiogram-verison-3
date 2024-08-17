@@ -2,5 +2,5 @@
 # kutubxona_nomi~=joriy_versiyasi - shu tarzda yozgan holda
 # quyidagi misollarni ko'rib tushuna olasiz
 
-aiogram~=3.4.1
-environs~=10.3.0
+environs~=11.0.0
+aiogram~=3.12.0

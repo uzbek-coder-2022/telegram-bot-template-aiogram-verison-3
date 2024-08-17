@@ -8,6 +8,6 @@ async def set_default_commands(bot: Bot):
             # command -> siz botda ishlatayotgan buyruq nomi
             # description -> buyruq haqida ma'lumot ya'ni botda nima vazifa bajarishi
             types.BotCommand(command="start", description="Botni ishga tushurish"),
-            types.BotCommand(command="help", description="Yordam"),
+            types.BotCommand(command="help", description="Yordam")
         ]
     )

@@ -2,7 +2,7 @@ import logging
 
 from aiogram import Bot
 
-from data.config import ADMINS # ADMINs ro'yxati olinmoqda
+from data.config import ADMINS  # Admins ro'yxati olinmoqda
 
 
 async def on_startup_notify(bot: Bot):
@@ -11,10 +11,10 @@ async def on_startup_notify(bot: Bot):
     for admin in ADMINS:
         try:
             # Bot yuboruvchi xabar
-            await bot.send_message(int(admin), "Bot ishga tushdi")
+            await bot.send_message(int(admin), "#start\n<blockquote>Bot ishga tushdi</blockquote>", parse_mode="HTML")
 
         except Exception as err:
-            logging.exception(err) # Xatolik haqida logging
+            logging.exception(err)  # Xatolik haqida logging
 
 
 async def on_shutdown_notify(bot: Bot):
@@ -23,7 +23,7 @@ async def on_shutdown_notify(bot: Bot):
     for admin in ADMINS:
         try:
             # Bot yuboruvchi xabar
-            await bot.send_message(int(admin), "Bot ishdan to'xtadi")
+            await bot.send_message(int(admin), "#stop\n<blockquote>Bot ishdan to'xtadi</blockquote>", parse_mode="HTML")
 
         except Exception as err:
-            logging.exception(err) # Xatolik haqida logging
+            logging.exception(err)  # Xatolik haqida logging
